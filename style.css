@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #aa4b6b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Playfair Display", serif;
+}
+
+.container {
+  padding: 30px 30px 0;
+}
+
+.mainBox {
+  background: white;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  width: 800px;
+}
+.mainBox__upper h5 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+}
+.mainBox__upper p {
+  color: gray;
+}
+.mainBox__upper--buttons {
+  border-bottom: 1px solid #75c9b7;
+  padding-bottom: 1rem;
+}
+.mainBox__upper--buttons button {
+  background-color: #f0f0f0;
+  color: black;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5rem;
+  width: auto;
+  margin-bottom: 1rem;
+}
+.mainBox__upper--buttons button svg {
+  cursor: pointer;
+}
+.mainBox__lower {
+  padding-top: 1rem;
+}
+.mainBox__lower h5 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+}
+.mainBox__lower p {
+  color: gray;
+  display: none;
+}
+.mainBox__lower ul {
+  list-style: none;
+}
+.mainBox__lower ul li {
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.mainBox__lower ul li:hover {
+  font-size: 1.1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
