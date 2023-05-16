@@ -14,5 +14,5 @@
 ## Things to improve:
 * Optimize the JS code
 
-<sub>***Not mobile responsive***</sub>
+<sub>***Not mobile responsive***</sub><br>
 <sub>Background gradient from [UI Gradients](https://uigradients.com/).</sub>
