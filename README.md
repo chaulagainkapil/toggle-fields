@@ -2,7 +2,7 @@
 ### Demo hosted in Netlify
 
 ## Screenshot
-
+![Screenshot of the site](https://github.com/chaulagainkapil/toggle-fields/blob/main/Screenshot.png)
 
 ## Languages Used:
 * HTML
